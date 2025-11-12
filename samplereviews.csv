@@ -1,0 +1,13 @@
+employee_id,role,gender,kpi_rating,competency_rating,initiative_rating,overall_rating,comment
+E101,Manager,F,4,4,4,4,"Strong potential; team player."
+E102,Manager,M,3,3,3,3,"Good attitude; average execution. Could improve communication."
+E103,Manager,F,4,3,4,4,"Works well under pressure; sometimes too energetic in meetings."
+E104,Manager,M,3,3,3,3,"Not a good cultural fit. Hard worker though."
+E105,Manager,F,4,4,4,4,"Great attitude; on-time delivery."
+E106,Manager,M,3,3,3,3,"Average results; needs to be more assertive."
+E201,Analyst,F,3,3,3,3,"Good attitude; improve communication for handoffs."
+E202,Analyst,M,4,3,3,3,"Meets goals; sometimes emotional in feedback."
+E203,Analyst,F,4,4,4,4,"Clear analysis; documented assumptions and tests."
+E204,Analyst,M,3,3,3,3,"Average velocity; learning new tools."
+E205,Analyst,F,4,4,3,4,"Great cross-team support. On-time delivery."
+E206,Analyst,M,3,3,3,3,"Hard worker; good fit for energetic culture."
