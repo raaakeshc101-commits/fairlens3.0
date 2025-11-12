@@ -23,7 +23,7 @@ RULES_VERSION = "v1.1-lexicon-60"
 def load_bias_rules(path: str = "bias_rules.csv") -> pd.DataFrame:
     from pathlib import Path
     p = Path(path)
-    cols = ["phrase","category","context_rule","tip"]
+    cols = phrase|category|context_rule|tip
     if not p.exists():
         st.warning("bias_rules.csv not found; using empty rule set.")
         return pd.DataFrame(columns=cols)
