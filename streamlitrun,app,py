@@ -1,0 +1,20 @@
+
+## Deploy (Streamlit Community Cloud)
+- Push this repo to **public** GitHub.
+- Go to https://share.streamlit.io → New app → select repo + `app.py`.
+- In **Settings → Access**, set **Public**. Test the URL in an incognito window.
+
+## Files
+- `app.py` — Streamlit app
+- `bias_rules.csv` — editable lexicon (no code change needed to expand)
+- `requirements.txt`
+- `sample_reviews.csv` (optional demo data)
+
+## Privacy
+- No names; only anonymized IDs
+- Aggregation gate: n ≥ 5
+- Session-only storage; export downloads for audits
+
+## Notes
+- Flags are coaching signals, not final judgments.
+- AIR (rule-of-thumb ≥ 0.80) is a proxy; human review required.
