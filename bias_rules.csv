@@ -1,64 +1,64 @@
-phrase,category,context_rule,tip
-hard worker,Vague,always,Replace with behavior & metric (e.g., "Met 10/12 deadlines; covered 2 weekend shifts in Q3.")
-team player,Vague,always,Describe collaboration behavior (e.g., "Co-led launch; resolved 3 cross-team blockers.")
-good attitude,Vague,always,Link to observable behaviors (follow-ups, response SLAs).
-great attitude,Vague,always,Replace with results delivered to others.
-reliable,Vague,always,Quantify reliability (attendance %, on-time %).
-flexible,Vague,always,State situation and outcome (where/how flexibility helped).
-shows improvement,Vague,always,Add before/after metric (e.g., "defects 12%→5%").
-come a long way,Vague,always,Add trajectory metric or milestone completed.
-could do better,Vague,always,Name specific gap and target behavior.
-needs more (product )?knowledge,Vague,pattern,Specify domain + plan (e.g., "Complete Product-X cert ≥85% by Feb").
-improve (.*) skills,Vague,pattern,Name the skill and practice plan + deadline.
-learning curve,Vague,always,Set timeline to proficiency and milestones.
-great communicator,Positive-Vague,always,Point to artifacts: briefs, emails, stakeholder notes.
-easy to work with,Positive-Vague,always,Tie to collaboration outcomes (handoff quality, cycle time).
-goes above and beyond,Positive-Vague,always,Quantify scope beyond role (tickets/week, on-calls).
-strong work ethic,Positive-Vague,always,Evidence with consistency metrics.
-leadership potential,Positive-Vague,always,Describe concrete leadership behaviors shown.
-fits well with team,Bias,always,Focus on job criteria; name competencies used.
-not a good fit,Bias,always,Replace with criteria gap (e.g., "Escalation handling at L3 not shown").
-cultural fit,Bias,always,Use job-relevant competencies only.
-assertive (gendered),Bias,if_gender_female,Replace with behavior ("interrupts peers"; "declined feedback requests").
-too assertive (for her),Bias,if_gender_female,Describe specific interaction and impact.
-emotional,Bias,always,Avoid label; describe behavior under stress and its impact.
-aggressive,Bias,review_context,If meetings context → describe "interrupts / raises voice", not label.
-bossy,Bias,always,Replace with behavior ("delegated without alignment"; "ignored input").
-quiet or reserved,Vague,always,If role requires visibility, define the behavior needed; else use outcomes.
-dominates meetings,Bias,review_context,Describe turn-taking or interruptions count instead.
-motherly/nurturing (at work),Bias,always,Avoid gendered stereotype; use mentoring behaviors/outcomes.
-he’s confident and decisive,Bias,always,Swap label for behavior (decision speed, accuracy).
-she’s too soft-spoken to lead,Bias,always,Leadership = outcomes; avoid voice/volume judgment.
-overconfident,Bias,always,Use evidence ("skipped verification in 2 cases").
-energetic (as praise),Vague,always,Replace with output (tickets/hrs; demos delivered).
-young but capable,Bias,always,Remove age; keep skills/impact only.
-seasoned perspective,Bias,always,Remove age coding; specify relevant expertise.
-new mom/dad references,Bias,always,Remove family status; stick to performance evidence.
-accent makes communication harder,Bias,always,Focus on mutual comprehension tools (notes, recap emails).
-not leadership material,Bias,always,Specify missing competencies and examples.
-better in support roles,Bias,always,Describe criteria gap for current role level.
-strong personality,Bias,always,Name behavior and situation (e.g., "dismissed feedback in retro").
-people like working with them,Positive-Vague,always,Use peer NPS or collaboration SLAs if available.
-dependable,Vague,always,Quantify dependability (handoff quality, on-time %).
-initiative-taker,Vague,always,List initiatives started and their outcomes.
-works well under pressure,Vague,always,Describe pressure scenario + outcome.
-average,Vague,always,Use rating + rubric criteria to define "average".
-rockstar,Positive-Vague,always,Avoid hype; show outlier outputs.
-ninja/guru,Positive-Vague,always,Avoid labels; state domain depth + examples.
-he’s a family man,Bias,always,Irrelevant; remove.
-girls/guys language,Bias,always,Use neutral "people/teammates/folks".
-cultural add (misused),Bias,always,If used, define explicit add (skills/perspectives tied to role).
-tone not right,Vague,always,Describe exact interaction and change needed.
-chemistry with team,Bias,always,Replace with collaboration evidence (peer reviews, delivery).
-overly nice,Bias,always,Avoid personality labels; connect to missed outcomes if any.
-too aggressive in emails,Bias,always,Cite examples; coach on phrasing templates.
-needs to be more confident (her),Bias,if_gender_female,Translate to behavior needed (speak up in X forum).
-not technical enough (blanket),Vague,always,Name the tech skill gap + learning plan.
-not strategic enough (blanket),Vague,always,Define strategic behaviors missing (roadmap, tradeoffs).
-professionalism issues,Vague,always,Specify norms missed (response SLAs, meeting prep).
-hungry / gritty,Positive-Vague,always,Replace with evidence (extra tickets, volunteer shifts).
-culture carrier,Bias,always,Define exact behaviors that "carry" culture (mentoring, rituals).
-too nice to manage,Bias,always,Leadership feedback: use outcomes (held boundaries? corrected defects?).
-natural leader,Positive-Vague,always,Name the leadership behaviors demonstrated.
-rubbed people the wrong way,Vague,always,Describe specific conflict event + remediation.
-overly emotional under stress,Bias,always,Describe escalation behavior and impact, not emotion label.
+phrase|category|context_rule|tip
+hard worker|Vague|always|Replace with behavior & metric (e.g., Met 10/12 deadlines; covered 2 weekend shifts in Q3.)
+team player|Vague|always|Describe collaboration behavior (e.g., Co-led launch; resolved 3 cross-team blockers.)
+good attitude|Vague|always|Link to observable behaviors (follow-ups, response SLAs).
+great attitude|Vague|always|Replace with results delivered to others.
+reliable|Vague|always|Quantify reliability (attendance %, on-time %).
+flexible|Vague|always|State situation and outcome (where/how flexibility helped).
+shows improvement|Vague|always|Add before/after metric (e.g., defects 12%→5%).
+come a long way|Vague|always|Add trajectory metric or milestone completed.
+could do better|Vague|always|Name specific gap and target behavior.
+needs more knowledge|Vague|pattern|Specify domain + plan (e.g., Complete Product-X cert ≥85% by Feb).
+improve (.*) skills|Vague|pattern|Name the skill and practice plan + deadline.
+learning curve|Vague|always|Set timeline to proficiency and milestones.
+great communicator|Positive-Vague|always|Point to artifacts: briefs, emails, stakeholder notes.
+easy to work with|Positive-Vague|always|Tie to collaboration outcomes (handoff quality, cycle time).
+goes above and beyond|Positive-Vague|always|Quantify scope beyond role (tickets/week, on-calls).
+strong work ethic|Positive-Vague|always|Evidence with consistency metrics.
+leadership potential|Positive-Vague|always|Describe concrete leadership behaviors shown.
+fits well with team|Bias|always|Focus on job criteria; name competencies used.
+not a good fit|Bias|always|Replace with criteria gap (e.g., Escalation handling at L3 not shown).
+cultural fit|Bias|always|Use job-relevant competencies only.
+assertive (gendered)|Bias|if_gender_female|Replace with behavior (interrupts peers; declined feedback requests).
+too assertive (for her)|Bias|if_gender_female|Describe specific interaction and impact.
+emotional|Bias|always|Avoid label; describe behavior under stress and its impact.
+aggressive|Bias|review_context|If meetings context → describe interrupts/raises voice, not label.
+bossy|Bias|always|Replace with behavior (delegated without alignment; ignored input).
+quiet or reserved|Vague|always|If role requires visibility, define the behavior needed; else use outcomes.
+dominates meetings|Bias|review_context|Describe turn-taking or interruptions count instead.
+motherly/nurturing (at work)|Bias|always|Avoid gendered stereotype; use mentoring behaviors/outcomes.
+he’s confident and decisive|Bias|always|Swap label for behavior (decision speed, accuracy).
+she’s too soft-spoken to lead|Bias|always|Leadership = outcomes; avoid voice/volume judgment.
+overconfident|Bias|always|Use evidence (skipped verification in 2 cases).
+energetic (as praise)|Vague|always|Replace with output (tickets/hrs; demos delivered).
+young but capable|Bias|always|Remove age; keep skills/impact only.
+seasoned perspective|Bias|always|Remove age coding; specify relevant expertise.
+new mom/dad references|Bias|always|Remove family status; stick to performance evidence.
+accent makes communication harder|Bias|always|Focus on mutual comprehension tools (notes, recap emails).
+not leadership material|Bias|always|Specify missing competencies and examples.
+better in support roles|Bias|always|Describe criteria gap for current role level.
+strong personality|Bias|always|Name behavior and situation (e.g., dismissed feedback in retro).
+people like working with them|Positive-Vague|always|Use peer NPS or collaboration SLAs if available.
+dependable|Vague|always|Quantify dependability (handoff quality, on-time %).
+initiative-taker|Vague|always|List initiatives started and their outcomes.
+works well under pressure|Vague|always|Describe pressure scenario + outcome.
+average|Vague|always|Use rating + rubric criteria to define average.
+rockstar|Positive-Vague|always|Avoid hype; show outlier outputs.
+ninja/guru|Positive-Vague|always|Avoid labels; state domain depth + examples.
+he’s a family man|Bias|always|Irrelevant; remove.
+girls/guys language|Bias|always|Use neutral “people/teammates/folks”.
+cultural add (misused)|Bias|always|If used, define explicit add (skills/perspectives tied to role).
+tone not right|Vague|always|Describe exact interaction and change needed.
+chemistry with team|Bias|always|Replace with collaboration evidence (peer reviews, delivery).
+overly nice|Bias|always|Avoid personality labels; connect to missed outcomes if any.
+too aggressive in emails|Bias|always|Cite examples; coach on phrasing templates.
+needs to be more confident (her)|Bias|if_gender_female|Translate to behavior needed (speak up in X forum).
+not technical enough (blanket)|Vague|always|Name the tech skill gap + learning plan.
+not strategic enough (blanket)|Vague|always|Define strategic behaviors missing (roadmap, tradeoffs).
+professionalism issues|Vague|always|Specify norms missed (response SLAs, meeting prep).
+hungry / gritty|Positive-Vague|always|Replace with evidence (extra tickets, volunteer shifts).
+culture carrier|Bias|always|Define exact behaviors that “carry” culture (mentoring, rituals).
+too nice to manage|Bias|always|Leadership feedback: use outcomes (held boundaries? corrected defects?).
+natural leader|Positive-Vague|always|Name the leadership behaviors demonstrated.
+rubbed people the wrong way|Vague|always|Describe specific conflict event + remediation.
+overly emotional under stress|Bias|always|Describe escalation behavior and impact, not emotion label.
