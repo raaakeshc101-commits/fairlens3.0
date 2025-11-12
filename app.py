@@ -19,16 +19,27 @@ RULES_VERSION = "v1.1-lexicon-60"
 # Helpers: load rules
 # -----------------------------
 @st.cache_data
+@st.cache_data
 def load_bias_rules(path: str = "bias_rules.csv") -> pd.DataFrame:
+    from pathlib import Path
     p = Path(path)
+    cols = ["phrase","category","context_rule","tip"]
     if not p.exists():
         st.warning("bias_rules.csv not found; using empty rule set.")
-        return pd.DataFrame(columns=["phrase","category","context_rule","tip"])
-    df = pd.read_csv(p)
-    need = {"phrase","category","context_rule","tip"}
-    if not need.issubset(df.columns):
-        st.warning("bias_rules.csv missing columns; expected: phrase, category, context_rule, tip")
+        return pd.DataFrame(columns=cols)
+    try:
+        # Read as pipe-delimited to avoid issues with commas inside tips
+        df = pd.read_csv(p, sep="|", engine="python")
+    except Exception as e:
+        st.error(f"Failed to read bias_rules.csv: {e}")
+        return pd.DataFrame(columns=cols)
+    # sanity checks
+    missing = [c for c in cols if c not in df.columns]
+    if missing:
+        st.error(f"bias_rules.csv missing columns: {missing}")
+        return pd.DataFrame(columns=cols)
     return df
+
 
 # -----------------------------
 # Smarter flagging utilities
